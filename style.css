@@ -1,0 +1,154 @@
+html,body{
+    height: 100%;
+    margin:0;
+
+}
+
+body{
+    background-color: hsla(235, 18%, 26%, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: white;
+    display: flex;
+    padding: 2rem;
+    border-radius: 3rem;
+
+}
+
+.card1{
+    display: flex;
+    padding: 0 3rem;
+    flex-direction: column;
+    align-content: flex-start;
+    gap: 20px;
+
+}
+
+.card1-header{
+    font-family: 'Roboto Slab', serif;
+    font-size: 4rem;
+    color: hsla(235, 18%, 26%, 1);
+    margin: 0;
+}
+
+.card1-des{
+    display:inline;
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+
+}
+
+li{
+    margin-bottom: 1rem;
+    margin-right: .1rem;
+    text-indent: 0.5rem ;
+    font-family: 'Roboto Slab', serif;
+}
+.check{
+    list-style-image: url(./imgs/icon-list.svg);
+}
+
+.email-label{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.email-text{
+    width: 90%;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: solid 1px grey;
+    font-size: 1rem;
+}
+
+input[type=submit]{
+    background-color:hsla(235, 18%, 26%, 1); 
+    width: 100%;
+    color: white;
+    font-family: 'Roboto Slab',serif;
+    padding: 1rem;
+    border-radius:.5rem ;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+}
+
+input[type=submit]:hover{
+    background: linear-gradient(90deg, rgba(251,63,231,1) 0%, rgba(251,94,83,1) 43%, rgba(252,97,70,1) 100%);
+}
+
+.hide{
+    display: none;
+}
+
+.success{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.success-title{
+    font-family: 'Roboto Slab', serif;
+    font-size: 3rem;
+    color:hsla(235, 18%, 26%, 1); 
+    margin: 0;
+    padding: 0.5rem;
+
+    
+}
+
+.success-des{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1rem;
+}
+
+img .check{
+    width: 3rem;
+    margin: 0;
+}
+
+#dismiss{
+    background-color:hsla(235, 18%, 26%, 1); 
+    color:white;
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+#dismiss:hover{
+    background: linear-gradient(90deg, rgba(251,63,231,1) 0%, rgba(251,94,83,1) 43%, rgba(252,97,70,1) 100%);
+    
+
+
+}
+
+.email-bold{
+    font-weight: 700;
+}
+
+
+.error-message{
+    float: right;
+    font-size: inherit;
+    font-family: inherit;
+    color: #FF6257 ;
+    
+}
+
+.invalid-input{
+
+    width: 90%;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: solid 1px tomato;
+    font-size: 1rem;
+    background-color: #ffe7e6;
+
+}
+

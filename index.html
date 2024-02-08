@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter</title>
+    <link rel = "stylesheet" href = "style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700;800;900&display=swap" rel="stylesheet">
+    <script type="text/javascript"  src = "script.js"></script>
+</head>
+<body>
+
+    <div id = "main-card" class="container">
+
+        <div class="card1">
+            <h1 class="card1-header">Stay updated!</h1>
+
+          
+            <p class="card1-des">Join 60,000 product managers receiving monthly<br> updates on:</p>
+
+            <ul>
+                <li class = "check"> Product discovery and building what matters</li>
+                <li class="check"> Measuring to ensure updates are a success</li>
+                <li class="check"> And much more!</li>
+            </ul>
+
+            <form id = "myForm" action = "">
+                <label class = "email-label" for="email">Email address    <span id = "error" class="hide error-message">Valid email required</span></label><br><br>
+                <input  type="text" class = "email-text" id="email" name="email" placeholder="email@company.com"><br><br>
+                <input type="submit" value="Subscribe to monthly Newsletter">
+            </form>
+        </div>
+
+        <div class="card2">
+
+            <img src = "imgs/illustration-sign-up-desktop.svg">
+
+
+        </div>
+
+
+    </div>
+
+    <div id="success" class="success hide">
+
+        <img class = "check" src="./imgs/icon-list.svg" alt="">   
+        <h1 class="success-title">Thanks for<br> subscribing!</h1>
+        <p class="success-des">A confirmation email has been sent to<br> <span class = "email-bold" id="email-place"></span> . Please open it and click<br> the button inside to confirm your subscription.</p>
+        <button id="dismiss">Dismiss message</button>
+
+
+    </div>
+
+</body>
+</html>
